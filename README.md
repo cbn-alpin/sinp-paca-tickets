@@ -6,6 +6,7 @@ Nous utiliserons pour cela [le système de tickets de ce dépot](https://github.
 ## Procédure
 
 ### Comment saisir un nouveau ticket ?
+1. S'identifiez sur Github
 1. Rendez-vous sur la [page de gestion des tickets de ce dépôt Github](https://github.com/cbn-alpin/silene-geonature/issues) et ouvrez un nouveau ticket (bouton "*New issue*").
 1. Saisissez un titre court ("*Title*") et représentatif du problème
 1. Saisissez une description plus détaillée sous l'onget "*Write*". Et agrémentez ce texte de copie d'écran en glissant/déposant vos fichiers dans le même espace.
