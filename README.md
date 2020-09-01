@@ -35,7 +35,7 @@ Nous utiliserons les labels suivant :
 ### Type [t] (#bfe5bf)
 
 Permet d'indiquer le type de ticket.
-Les lables disponibles sont :
+Les labels disponibles sont :
 - **t:bug**
 - **t:fonctionnalite**
 - **t:idee**
@@ -52,8 +52,8 @@ Permet d'indiquer le principal outil concerné par le ticket :
   - **o:gn:meta** : le module "Métadonnées" de GeoNature
   - **o:gn:synthese** : le module "Synthèse" de GeoNature
   - **o:gn:occtax** : le module "OccTax" de GeoNature
-  - **o:gn:validation** : le module "validation" de GeoNature
-  - **o:gn:export** : le module "export" de GeoNature
+  - **o:gn:validation** : le module "Validation" de GeoNature
+  - **o:gn:export** : le module "Export" de GeoNature
 - **o:atlas** : l'application Atlas de GeoNature (https://nature.silene.eu)
 - **o:usershub** : l'application Usershub (https://usershub.silene.eu)
 - **o:taxhub** : l'application Taxhub (https://taxhub.silene.eu)
@@ -78,7 +78,7 @@ Les labels disponibles sont :
 
 ### Effort [e] (#d4c5f9)
 
-Permet d'indiquer le temps nécessaire pour fermer le ticket. Une note de 1 (failble) à 3 (important).
+Permet d'indiquer le temps nécessaire pour fermer le ticket. Une note de 1 (faible) à 3 (important).
 Les labels disponibles sont :
 - **e:1** : demande une effort faible.
 - **e:2** : demande une effort moyen.
