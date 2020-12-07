@@ -65,7 +65,7 @@ Permet d'indiquer l'état d'un ticket à un moment donné.
 Les labels disponibles sont :
 - **s:complement** : le ticket nécessite un complément d'information pour être traité.
 - **s:discussion** : le ticket nécessite un choix qui doit être discuté.
-- **s:en-cours** : le ticket est en cours de traitement. 
+
 
 ### Priorité [p] (#f7c6c7)
 
