@@ -32,6 +32,8 @@ Nous utiliserons les labels suivant :
 - Audience
 - Info
 
+Il est possible de consulter le nombre de tickets associé à chaque label sur [la page dédiée](https://github.com/cbn-alpin/silene-geonature/labels). Cette page permet aussi d'accèder aux tickets liés à chaque label.
+
 ### Type [t] (#bfe5bf)
 
 Permet d'indiquer le type de ticket.
