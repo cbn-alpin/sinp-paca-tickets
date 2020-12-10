@@ -38,13 +38,13 @@ Il est possible de consulter le nombre de tickets associé à chaque label sur [
 
 Permet d'indiquer le type de ticket.
 Les labels disponibles sont :
-- **t:bug**
-- **t:fonctionnalite**
-- **t:idee**
-- **t:amelioration**
-- **t:question**
-- **t:support**
-- **t:tache**
+- **t:bug** : correction d'un mauvais fonctionnement nécessitant du développement.
+- **t:fonctionnalite** : ajout d'une nouvelle fonctionnalité nécessitant du développement.
+- **t:amelioration** : modification d'une fonctionnalité existante nécessitant du développement.
+- **t:tache** : modification/amélioration/travail ne nécéssitant aucun développement (paramètrages, rédaction, ...).
+- **t:idee** : une idée d'amélioration ou de fonctionnalité nécessitant des discussions avant change de type (=> _t:fonctionnalite_ ou _t:amelioration_)
+- **t:question** : une question en lien avec le projet nécessitant des explications détaillées.
+- **t:support** : besoin d'aide pour résoudre un problème.
 
 ### Outils [o] (#c7def8)
 
