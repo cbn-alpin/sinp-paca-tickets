@@ -49,17 +49,20 @@ Les labels disponibles sont :
 ### Outils [o] (#c7def8)
 
 Permet d'indiquer le principal outil concerné par le ticket :
-- **o:geonature** : l'application GeoNature dans son ensemble (https://expert.silene.eu)
-  - **o:gn:accueil** : le module "Accueil" de GeoNature
-  - **o:gn:meta** : le module "Métadonnées" de GeoNature
-  - **o:gn:synthese** : le module "Synthèse" de GeoNature
-  - **o:gn:occtax** : le module "OccTax" de GeoNature
-  - **o:gn:validation** : le module "Validation" de GeoNature
-  - **o:gn:export** : le module "Export" de GeoNature
 - **o:atlas** : l'application Atlas de GeoNature (https://nature.silene.eu)
-- **o:usershub** : l'application Usershub (https://usershub.silene.eu)
-- **o:taxhub** : l'application Taxhub (https://taxhub.silene.eu)
 - **o:cms** : le CMS Wordpress (https://cms.silene.eu)
+- **o:geonature** : l'application GeoNature dans son ensemble (https://expert.silene.eu).
+  - **o:gn:accueil** : le module "Accueil" de GeoNature.
+  - **o:gn:admin** : le module "Admin" de GeoNature dans son ensemble ou la page d'accueil du module.
+  - **o:gn:admin:demandes** : le module "Gestion des demandes" d'accès aux données précises de GeoNature accessible depuis la page d'accueil du module "Admin".
+  - **o:gn:admin:permissions** : le module "Gestion des permissions" de GeoNature accessible depuis la page d'accueil du module "Admin".
+  - **o:gn:export** : le module "Exports" de GeoNature (module optionnel).
+  - **o:gn:meta** : le module "Métadonnées" de GeoNature
+  - **o:gn:occtax** : le module "OccTax" de GeoNature
+  - **o:gn:synthese** : le module "Synthèse" de GeoNature
+  - **o:gn:validation** : le module "Validation" de GeoNature
+- **o:taxhub** : l'application Taxhub (https://taxhub.silene.eu)
+- **o:usershub** : l'application Usershub (https://usershub.silene.eu)
 
 ### Status [s]
 
@@ -101,14 +104,15 @@ Non utilisé pour l'instant.
 
 Nous utiliserons 3 types de millestones ouvertes au maximum en parallèles :
 
-- **En cours** : ce qui est en cours de traitement. Lorsque la millestones est complétée, elle est fermée. Une nouvelle peut alors être ouverte est alimenté par des tickets de la millestones "*Prochainement*".
-- **Prochainement** : cette millestones ne sera jamais fermée. Elle contient tous les tickets à traiter utlérieurement.
+- **En cours** : ce qui est en cours de traitement. Lorsque une mise en production a lieu, les  tickets fermés de cette millestone viennent alimenter une nouvelle milestone dont le nom est par exemple _v1 - 2021-03-25_. La milestone nommé avec un numéro de version et une date sera fermé.
+- **Prochainement** : cette millestones ne sera jamais fermée. Elle contient tous les tickets à traiter utlérieurement dont les développements ont été programmés/planifiés. Lorsqu'une mise en production a lieu certains tickets qu'elle héberge peuvent être transféré dans la milestone "_En cours..._".
 - **Non traités** : cette millestones ne sera jamais fermée. Elle contient tous les tickets de type idée ou qui n'ont pas vocation a être traité.
 
 ## Notes
-Les milestones "*En cours*" et "*Prochainement*" font doublon avec les colonnes "*In progress*" et "*Backlog*" du projet. Nous allons voir à l'utilisation ce qui est le plus pratique.
+Les milestones "*En cours*" et "*Prochainement*" font doublon avec les colonnes "*In progress*" et "*Backlog*" du projet. Nous allons voir à l'utilisation ce qui est le plus pratique.  
+Finalement les milestones "*En cours*" et "*Prochainement*" permettent de planifier sur le moyen/long terme les tickets à traiter alors que les colonnes *In progress*" et "*Backlog*" du projet servent aux developpeurs pour s'organiser sur une session de développement (~_sprint_).
 
-Le label "*s:en-cours*" fait doublon avec la colonne "*En cours*" du projet lié. L'utilisation de la colonne dans le projet semble plus pratique pour gérer ce status de ticket.
+Le label "*s:en-cours*" fait doublon avec la colonne "*En cours*" du projet lié. L'utilisation de la colonne dans le projet semble plus pratique pour gérer ce status de ticket. Nous n'utiliserons pas ce label.
 
 ## Sources
 [How to manage a project using Github](http://blog.zot24.com/how-to-manage-a-project-using-github/)
