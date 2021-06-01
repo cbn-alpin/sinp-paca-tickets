@@ -1,6 +1,6 @@
-# silene-geonature
-Ce dépôt sert à rassembler et organiser les tickets concernant le projet de migration vers GeoNature de *silene.eu*.  
-Nous utiliserons pour cela [le système de tickets de ce dépot](https://github.com/cbn-alpin/silene-geonature/issues) ainsi qu'un [Projet Silene-GeoNature](https://github.com/orgs/cbn-alpin/projects/1) Github.
+# sinp-paca-tickets
+Ce dépôt sert à rassembler et organiser les tickets concernant *silene.eu* sous GeoNature. 
+Nous utiliserons pour cela [le système de tickets de ce dépot](https://github.com/cbn-alpin/silene-geonature/issues) ainsi qu'un [Projet SINP PACA Suivi](https://github.com/orgs/cbn-alpin/projects/1) Github.
 
 
 ## Procédure
