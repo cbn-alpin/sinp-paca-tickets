@@ -64,12 +64,12 @@ Permet d'indiquer le principal outil concerné par le ticket :
 - **o:taxhub** : l'application Taxhub (https://taxhub.silene.eu)
 - **o:usershub** : l'application Usershub (https://usershub.silene.eu)
 
-### Status [s]
+### Statuts [s]
 
 Permet d'indiquer l'état d'un ticket à un moment donné.
 Les labels disponibles sont :
-- **s:complement** : le ticket nécessite un complément d'information pour être traité.
-- **s:discussion** : le ticket nécessite un choix qui doit être discuté.
+- **s:complement** (#b58a1e) : le ticket nécessite un complément d'information pour être traité.
+- **s:discussion** (#fbca04) : le ticket nécessite un choix qui doit être discuté.
 
 
 ### Priorité [p] (#f7c6c7)
