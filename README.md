@@ -70,7 +70,7 @@ Permet d'indiquer l'état d'un ticket à un moment donné.
 Les labels disponibles sont :
 - **s:complement** (#b58a1e) : le ticket nécessite un complément d'information pour être traité.
 - **s:discussion** (#fbca04) : le ticket nécessite un choix qui doit être discuté.
-
+- **s:prérequis** (#fbc504) : le ticket nécessite d'en réaliser un autre prélable.
 
 ### Priorité [p] (#f7c6c7)
 
